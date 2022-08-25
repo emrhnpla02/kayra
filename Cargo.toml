@@ -1,0 +1,11 @@
+[package]
+name = "kayra"
+edition = "2021"
+version = "0.1.0"
+license = "GPL-3.0"
+authors = ["Emirhan Pala <emrhnpla02@proton.me>"]
+repository = "https://github.com/emrhnpla02/kayra"
+
+[dependencies]
+async-process = "1.4.0"
+strum = { version = "0.24.1", features = ["derive"] }
