@@ -7,5 +7,5 @@ authors = ["Emirhan Pala <emrhnpla02@proton.me>"]
 repository = "https://github.com/emrhnpla02/kayra"
 
 [dependencies]
-async-process = "1.4.0"
-strum = { version = "0.24.1", features = ["derive"] }
+async-process = "^1.5.0"
+strum = { version = "^0.24.1", features = ["derive"] }
