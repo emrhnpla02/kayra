@@ -43,6 +43,10 @@ impl<'a> PackageManager<'a> {
     self
   }
 
+  pub fn dev_dependency(mut self) -> Self {
+    self.flags.push("--save-dev");
+    self
+  }
   pub fn global(mut self) -> Self {
     self.flags.push("--global");
     self
